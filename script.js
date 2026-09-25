@@ -6,7 +6,7 @@ const cases = {
     description:
       "For the patient who gets a headache from overthinking and missing you a little too much.",
     default:
-      "One little call, one “stop overthinking,” and a reminder that AEVY is right here. Repeat as needed. ♡",
+      "One little call, one “stop overthinking,” and a reminder that AEVY is right here. Repeat as needed. ",
     note: "Possible side effects: smiling at your phone and missing your pharmacist even more.",
     ideas: [
       "One video call with AEVY",
@@ -21,7 +21,7 @@ const cases = {
     description:
       "For bothering you and promising to improve my habits.",
     default:
-      "Before asking too much: take one deep breath, listen to AEVY, and change one habit instead of making another promise. Repeat daily. ♡",
+      "take one deep breath, listen to AEVY, and change one habit instead of making another promise. Repeat daily.",
     note: "Possible side effects: more patience, fewer arguments, and one much happier girlfriend.",
     ideas: [
       "Listen first, defend myself later",
@@ -36,7 +36,7 @@ const cases = {
     description:
       "For the patient who lost weight and whose favorite pharmacist wants him healthy, fed, and a little more huggable.",
     default:
-      "Eat proper meals, don’t skip food when busy, and send AEVY proof that I’m taking care of myself.♡",
+      "Eat proper meals, don’t skip food when busy, and send AEVY proof that I’m taking care of myself.",
     note: "Possible side effects: fuller cheeks, better hugs, and AEVY’s approval.",
     ideas: [
       "Three real meals, no skipping",
