@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#531f35" />
+    <meta
+      name="description"
+      content="World Pharmacists Day celebration for AEVY."
+    />
+    <title>World Pharmacists Day</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="top">
+        <div class="brand">
+        <div class="date">September 25 · World Pharmacists Day</div>
+      </header>
+      <section class="banner" aria-labelledby="title">
+        <div>
+          <div class="eyebrow">To my favorite future pharmacist</div>
+          <h1 id="title">Happy World Pharmacists Day, AEVY.</h1>
+          <p>
+            Today is about loml: the person you are, the path you’ve chosen. I’m so proud of you. Muahh😘
+          </p>
+        </div>
+        <div class="seal" aria-hidden="true">AEVY<br /></div>
+      </section>
+      <section class="letter" aria-labelledby="lettertitle">
+        <div class="step">From Nittal</div>
+        <h2 id="lettertitle">For meri Special Manchey lai.</h2>
+        <p>
+          One day, people will come to you with questions and worries. I hope
+          they get to see the kindness I see in you. And while you’re still on
+          your way there, I hope you remember that you deserve to be celebrated
+          right now, too.
+        </p>
+        <p>
+          Happy World Pharmacists Day, my love. I’m always cheering for you.
+        </p>
+        <p class="closing">With love, Nischal ♡</p>
+      </section>
+      <section class="playful" aria-labelledby="playtitle">
+        <div class="step">A little something for you</div>
+        <h2 id="playtitle">Small case for your favorite patient.</h2>
+        <p class="intro">
+          Here is your prescription pad which you can give me.
+        </p>
+      </section>
+      <div class="workspace">
+        <section class="panel" aria-labelledby="formtitle">
+          <div class="step">The consultation</div>
+          <h2 id="formtitle">Choose what to treat</h2>
+          <p class="intro">
+            AEVY, I promise to try following your orders.
+          </p>
+          <div class="conditions" role="group" aria-label="Choose a condition">
+            <button
+              class="condition"
+              type="button"
+              data-case="headache"
+              aria-pressed="true"
+            >
+              ><strong>My headaches</strong>
+            </button>
+            <button
+              class="condition"
+              type="button"
+              data-case="behavior"
+              aria-pressed="false"
+            >
+              ><strong>My behavior</strong>
+            </button>
+            <button
+              class="condition"
+              type="button"
+              data-case="weight"
+              aria-pressed="false"
+            >
+              ><strong>My weight gain</strong>
+            </button>
+          </div>
+          <div class="rxbox">
+            <div class="step">Case file <span id="caseNumber">01</span></div>
+            <div class="medicine" id="medicine">AEVY’s headache remedy</div>
+            <p id="description">
+              For the patient who gets a headache from overthinking and missing
+              you a little too much.
+            </p>
+          </div>
+          <label class="field" for="patient">Patient’s name</label
+          ><input
+            class="input"
+            id="patient"
+            maxlength="50"
+            value="Nischal"
+            autocomplete="off"
+          />
+          <label class="field" for="orders"
+            >Your prescriptio</label
+          ><textarea
+            class="input"
+            id="orders"
+            maxlength="500"
+            placeholder="Write your orders for me here…"
+          ></textarea>
+          <div
+            class="suggestions"
+            id="suggestions"
+            aria-label="Prescription ideas"
+          ></div>
+          <label class="field" for="doctor">Signed by</label
+          ><input
+            class="input"
+            id="doctor"
+            maxlength="50"
+            value="AEVY"
+            autocomplete="off"
+          />
+          <button class="primary" id="issue" type="button">
+            Sign my prescription ♡
+          </button>
+          <p class="hint">
+            Just a love note disguised as a prescription. No real medical advice
+            here.
+          </p>
+        </section>
+        <section
+          class="paper"
+          id="prescription"
+          aria-label="Prescription preview"
+          aria-live="polite"
+        >
+          <div class="paperhead">
+            <div>
+              <span>AEVY’s Pharmacy</span>
+              <h2>Prescription</h2>
+            </div>
+            <div class="rx" aria-hidden="true">AN</div>
+          </div>
+          <div class="meta">
+            <div>Patient<br /><b id="previewPatient">Nischal</b></div>
+            <div>Case<br /><b id="previewCase">01 / Headache</b></div>
+          </div>
+          <div class="label">Prescribed treatment</div>
+          <p class="name" id="previewMedicine">AEVY’s headache remedy</p>
+          <div class="label">orders</div>
+          <p class="detail" id="previewOrders">
+            One little call, one “stop overthinking,” and a reminder that AEVY
+            is right here. Repeat as needed. ♡
+          </p>
+          <p class="note" id="previewNote">
+            Possible side effects: smiling at your phone and missing your
+            pharmacist even more.
+          </p>
+          <div class="signature">
+            <div>
+              <div class="small">Prescribed with love by</div>
+              <div class="script" id="previewDoctor">AEVY</div>
+            </div>
+            <div class="stamp" aria-hidden="true">
+              <br />APPROVED<br />♡
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="actions">
+        <button class="secondary" id="copy" type="button">
+          Copy prescription</button
+        ><button class="secondary" id="print" type="button">
+          Save as PDF / print
+        </button>
+      </div>
+      <p class="status" id="status" role="status"></p>
+      <footer class="footer">
+        Made for <strong>AEVY</strong> on World Pharmacists Day — with love,
+        Nischal. ♡
+      </footer>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>
