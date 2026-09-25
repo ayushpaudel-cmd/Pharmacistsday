@@ -19,7 +19,7 @@ const cases = {
     label: "Behavior",
     medicine: "Behaviour change",
     description:
-      "For bothering you with my expectations and promising to improve my habits (for real this time).",
+      "For bothering you and promising to improve my habits.",
     default:
       "Before asking too much: take one deep breath, listen to AEVY, and change one habit instead of making another promise. Repeat daily. ♡",
     note: "Possible side effects: more patience, fewer arguments, and one much happier girlfriend.",
